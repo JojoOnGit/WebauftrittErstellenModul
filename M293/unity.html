@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unity - Joost Klein</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .album-detail-content {
+      padding: 2rem 0;
+    }
+    
+    .track {
+      padding: 0.75rem 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+    }
+    
+    .track-number {
+      flex: 0 0 30px;
+      font-weight: bold;
+      color: var(--accent);
+    }
+    
+    .track-title {
+      flex: 1;
+    }
+    
+    .track-duration {
+      flex: 0 0 50px;
+      text-align: right;
+      color: var(--secondary);
+    }
+    
+    .back-to-main {
+      display: inline-block;
+      margin-top: 2rem;
+      background-color: var(--accent);
+      color: white;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      border-radius: 50px;
+      transition: var(--transition);
+    }
+    
+    .back-to-main:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(108, 92, 231, 0.3);
+    }
+    
+    body.dark-mode .track {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-content">
+      <h1>Unity</h1>
+      <p>Joost Klein (2024)</p>
+    </div>
+  </header>
+  
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#album-info">Album Info</a></li>
+      <li><a href="#tracklist">Tracklist</a></li>
+      <li><a href="#my-review">My Review</a></li>
+    </ul>
+  </nav>
+  
+  <!-- Album Detail Section -->
+  <section id="album-info">
+    <div class="container">
+      <div class="section-title">
+        <h2>Album Info</h2>
+      </div>
+      
+      <div class="about-content">
+        <div class="about-image">
+          <img src="https://i.scdn.co/image/ab67616d0000b27354596ddf118f2f0bfea5d806" alt="Unity Album Cover">
+        </div>
+        <div class="about-text">
+          <h3>Unity (2024)</h3>
+          <p>Released in March 2024, "Unity" is the breakthrough album from Dutch artist Joost Klein. The album gained international attention when its lead single "Europapa" was selected as the Netherlands' entry for Eurovision 2024.</p>
+          <p>The album blends genres including Europop, dance, electronic, and hip-hop, while incorporating multilingual lyrics in Dutch, English, and French.</p>
+          <div class="album-tags">
+            <span class="tag">Europop</span>
+            <span class="tag">Dance</span>
+            <span class="tag">Electronic</span>
+            <span class="tag">16 Tracks</span>
+            <span class="tag">36 Minutes</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="tracklist">
+  <div class="container">
+    <div class="section-title">
+      <h2>Tracklist</h2>
+    </div>
+    
+    <div class="album-detail-content">
+      <div class="track"><span class="track-number">1</span><span class="track-title">Why Not???</span></div>
+      <div class="track"><span class="track-number">2</span><span class="track-title">Luchtballon</span></div>
+      <div class="track"><span class="track-number">3</span><span class="track-title">Gabberland</span></div>
+      <div class="track"><span class="track-number">4</span><span class="track-title">1 (feat. Scooter)</span></div>
+      <div class="track"><span class="track-number">5</span><span class="track-title">United By Music (feat. Tommy Cash)</span></div>
+      <div class="track"><span class="track-number">6</span><span class="track-title">Discozwemmen (feat. Spinvis)</span></div>
+      <div class="track"><span class="track-number">7</span><span class="track-title">Friesenjung</span></div>
+      <div class="track"><span class="track-number">8</span><span class="track-title">Kunst und Musik</span></div>
+      <div class="track"><span class="track-number">9</span><span class="track-title">Filthy Dog</span></div>
+      <div class="track"><span class="track-number">10</span><span class="track-title">We'll Meet Again (feat. Stuntje)</span></div>
+      <div class="track"><span class="track-number">11</span><span class="track-title">BOOM BOOM!!!!!</span></div>
+      <div class="track"><span class="track-number">12</span><span class="track-title">Internetcafé 24/7</span></div>
+      <div class="track"><span class="track-number">13</span><span class="track-title">Epiphany of Love: The Origin</span></div>
+      <div class="track"><span class="track-number">14</span><span class="track-title">Europapa</span></div>
+      <div class="track"><span class="track-number">15</span><span class="track-title">Europapa – Outro</span></div>
+      <div class="track"><span class="track-number">16</span><span class="track-title">Last Man Standing</span></div>
+    </div>
+  </div>
+</section>
+  
+  <section id="my-review">
+    <div class="container">
+      <div class="section-title">
+        <h2>My Review</h2>
+      </div>
+      
+      <div class="album-detail-content">
+        <p>When I first discovered Joost Klein's "Unity," I wasn't sure what to expect. I'd heard "Europapa" from Eurovision, but wasn't prepared for how the entire album would completely win me over. There's something so refreshingly authentic about Klein's approach to music - it's playful, energetic, and utterly infectious.</p>
+        
+        <p>The album perfectly captures that feeling of pure joy that seems increasingly rare in modern music. Tracks like "1" and "Gabberland" are impossible not to move to, while "Discozwemmen" showcases a more thoughtful side to his artistry without losing the album's vibrant energy.</p>
+        
+        <p>What I love most about this record is how effortlessly it blends languages and cultures. Klein switches between Dutch, English, and French, creating this wonderfully inclusive vibe that feels like a celebration of European unity (fitting with both the album title and his Eurovision connection). In our increasingly divided world, there's something powerful about music that brings people together through shared joy.</p>
+        
+        <p>The production is brilliantly nostalgic too - calling back to 90s Eurodance but with enough modern elements to feel fresh rather than derivative. I find myself returning to this album whenever I need a mood boost - it's practically impossible to feel down while listening to it.</p>
+        
+        <p>If you haven't given "Unity" a chance yet, especially if you dismissed it as just "that Eurovision album," I highly recommend diving in. It's easily one of my most played albums of 2024, and for good reason - pure, unadulterated musical joy.</p>
+        
+        <a href="index.html" class="back-to-main">Back to Overview</a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <p>© 2025 My Favorite Albums</p>
+      <p>Created with passion for music</p>
+    </div>
+  </footer>
+  
+  <!-- Dark mode toggle button -->
+  <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle Dark Mode">
+    <i class="fas fa-moon"></i>
+  </button>
+  
+  <!-- Font Awesome for icons -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
